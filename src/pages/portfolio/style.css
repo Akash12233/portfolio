@@ -1,0 +1,54 @@
+.po_item {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem auto;
+    position: relative;
+    background: grey;
+    border-radius: 15px; /* Adjust border-radius to your preference */
+    overflow: hidden;
+    height: 300px; /* Adjust the height as needed */
+  }
+  
+  .po_item h1 {
+    font-size: 1.5rem;
+    color: white;
+    margin: 20px;
+    z-index: 2;
+  }
+  
+  .po_item img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0; /* Apply border-radius only to the top corners */
+  }
+  
+  .po_item .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Adjust the background color and opacity as needed */
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .po_item .content p {
+    color: white;
+    margin: 10px 0;
+  }
+  
+  .po_item .content a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .po_item .content a:hover {
+    text-decoration: underline;
+  }
+  
