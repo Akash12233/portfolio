@@ -105,8 +105,8 @@ const dataportfolio = [{
         link: "https://github.com/Akash12233/Akash--jpmc-task",
     },
     {
-        heading:"Blogse (ongoing)",
-        img: "",
+        heading:"Blogeze",
+        img: require("./assets/images/blogpost.png"),
         description: "This website simplifies the blog writing process, allowing users to effortlessly craft posts on any topic. With an intuitive interface, users can quickly express their thoughts, ideas, and expertise without the complexities of traditional platforms.",
         link: "https://github.com/Akash12233/blogpost",
     },
