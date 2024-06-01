@@ -114,7 +114,7 @@ const dataportfolio = [{
         heading:"Memories",
         img: require("./assets/images/memories.png"),
         description: "Memories is a comprehensive event management app built with React. It helps event organizers manage events, handle guest lists, upload and share media, and much more. Whether you're organizing a wedding, a corporate event, or a birthday party, Memories is designed to make your job easier and ensure your guests have a memorable experience.",
-        link: "https://github.com/Akash12233/twitter-clone-reactjs",
+        link: "https://github.com/Akash12233/Memories",
     },
 ];
 
