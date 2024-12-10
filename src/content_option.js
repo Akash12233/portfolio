@@ -116,6 +116,12 @@ const dataportfolio = [{
         description: "Memories is a comprehensive event management app built with React. It helps event organizers manage events, handle guest lists, upload and share media, and much more. Whether you're organizing a wedding, a corporate event, or a birthday party, Memories is designed to make your job easier and ensure your guests have a memorable experience.",
         link: "https://github.com/Akash12233/Memories",
     },
+    {
+        heading:"EMOINRD",
+        img: require("./assets/images/EMOINRD.png"),
+        description: "This project is a Sentiment Analysis Web Application built using Flask, where users can submit a CSV file or a single text input to predict the sentiment of the text (Positive, Negative, or Neutral). The application uses a machine learning model to classify the sentiment of user input based on pre-trained models, and it also provides a visual representation of the sentiment distribution.",
+        link: "https://github.com/Akash12233/EMOINRD",
+    },
 ];
 
 const contactConfig = {
