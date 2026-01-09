@@ -34,7 +34,7 @@ const worktimeline = [
         jobtitle: " Developed the ”Travel Companion” app for the TBO Hackathon",
         where: "TBO Hackathon",
         date: "2024",
-    }
+    },
     {
         jobtitle: "Product Intern",
         where: "AbcoedTech.pvt",
@@ -82,18 +82,19 @@ const skills = [{
     }
 ];
 
-const services = [{
+const services = [
+    {
+        title: "C++ Systems Development",
+        description: "Experienced in modern C++ (C++17/20/23), I specialize in building high-performance, low-latency systems with a strong focus on efficiency and reliability. From multithreaded architectures and networking (TCP/UDP, WebSockets) to performance optimization and memory-efficient design, I develop robust backend systems that scale under demanding, real-time workloads.",
+    },
+    {
         title: "Web-Development",
         description: "Experienced in MERN stack, I specialize in crafting efficient and dynamic websites. From MongoDB for flexible data storage to React for interactive UIs, I ensure seamless, full-stack development. Proficient in creating RESTful APIs and implementing responsive designs, my focus on user experience and efficient development practices results in standout websites.",
     },
     {
         title: "Product Management",
         description: "I specialize in applying MVPs and Agile methodologies, particularly Scrum, for efficient development. Proficient in backlog management and user stories, I navigate complexities to ensure streamlined processes. My commitment to Agile principles guarantees adaptability and collaboration, defining my approach to successful product management.",
-    },
-    {
-        title: "Data Structures and Algorithms",
-        description: " Specializing in advanced structures such as graphs, dynamic programming, and hash maps. With a deep understanding of algorithmic complexities, I consistently excel in solving intricate coding challenges. My expertise extends to crafting efficient solutions, demonstrating a strong command over DSA principles.",
-    },
+    }
 ];
 
 const dataportfolio = [
