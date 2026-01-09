@@ -1,25 +1,41 @@
 const logotext = "Akash Tayade";
 const meta = {
     title: "Akash Tayade",
-    description: "I’m Akash Tayade a FullStack Developer and Product Manager",
+    description: "I’m Akash Tayade a C++ and FullStack Developer",
 };
 
 const introdata = {
     title: "I’m AKASH TAYADE",
     animated: {
-        first: "I am a FullStack Developer",
-        second: "I am a Product Manager",
+        first: "I am a C++ Developer",
+        second: "I am a FullStack Developer",
         third: "I code, I manage, I excel",
     },
-    description: "As a budding Product Manager and Full Stack Developer embarking on my professional journey, I bring a passion for seamlessly integrating front-end and back-end technologies to create innovative and efficient solutions. With a strong foundation in product management, I strive to deliver dynamic and impactful software experiences.",
+    description: "C++ Software Engineer with hands-on experience building low-latency trading connectivity and performance-critical systems on Linux. Strong foundation in modern C++, concurrency, and system optimization, with exposure to real-time execution infrastructure in a front-office environment. Proven ability to work close to traders and deliver reliable, high-impact software.",
     your_img_url: "./assets/images/photo.png",
 };
 
 const dataabout = {
     title: "About me",
-    aboutme: "With a versatile skill set spanning Python, C/C++, C#, embedded C, Java, Catkin, Data Structures, Algorithms, and more, I thrive in software development and embrace challenges. Proficient in Agile methodologies, Scrum, and Product Management, I navigate the complexities of backlogs, burndown charts, and comparative analyses. ",
+    aboutme: "With a versatile skill set spanning Python, C/C++, Javascript, Data Structures, Algorithms, and more, I thrive in software development and embrace challenges. Proficient in Agile methodologies, Scrum, and Product Management, I navigate the complexities of backlogs, burndown charts, and comparative analyses. ",
 };
-const worktimeline = [{
+const worktimeline = [
+    {
+        jobtitle: "Software Developer",
+        where: "UBS",
+        date: "2025",
+    },
+    {
+        jobtitle: "Presented Research Paper at the CVR National Conference",
+        where: "Pleth-StageNet: A Novel Sleep Scoring System using Photoplethysmography for Sleep Disorder Patients",
+        date: "2025",   
+    },
+    {
+        jobtitle: " Developed the ”Travel Companion” app for the TBO Hackathon",
+        where: "TBO Hackathon",
+        date: "2024",
+    }
+    {
         jobtitle: "Product Intern",
         where: "AbcoedTech.pvt",
         date: "2023",
@@ -58,11 +74,11 @@ const skills = [{
     },
     {
         name:"Node.js",
-        value:60,
+        value: 60,
     },
     {
-        name: "Product Management",
-        value:60,
+        name: "C++",
+        value: 80,
     }
 ];
 
@@ -80,7 +96,26 @@ const services = [{
     },
 ];
 
-const dataportfolio = [{
+const dataportfolio = [
+    {
+        heading: "OrionEX – High-Frequency Trading System",
+        img: require("./assets/images/orionex.png"),
+        description: "Engineered a C++ ultra-low-latency cryptocurrency derivatives trading system enabling microsecond-level order placement, cancellation, and modification. Built a modular Exchange API Gateway using WebSockets and JSON-RPC (Deribit API), optimized with zero-copy message handling to minimize syscalls and maximize throughput under peak network load.",
+        link: "https://github.com/Akash12233/C-High-Frequency-Trading-System-HFT",
+    },
+    {
+        heading: "FitAI – AI-Powered Fitness Platform",
+        img: require("./assets/images/fitai.png"),
+        description: "Built an AI-driven fitness platform delivering personalized workout plans and interactive coaching using OpenAI APIs. Designed and deployed a scalable MERN stack system with secure JWT and Google OAuth authentication, premium subscription handling, and production-grade deployment on Netlify and Vercel.",
+        link: "https://gymfitai.netlify.app/",
+    },
+    {
+        heading: "SomniSense – Sleep Stage Classification System",
+        img: require("./assets/images/somnisense.png"),
+        description: "Developed a real-time sleep analytics dashboard visualizing REM, N2, N3, and Wake stages using React and Chart.js. Implemented backend pipelines with Flask, Socket.IO, and MongoDB, achieving over 99% classification accuracy using a hybrid CNN-GRU model trained on wavelet-transformed physiological signals.",
+        link: "https://github.com/Akash12233/SomniSense",
+    },
+    {
         heading:"Vehicle Management System",
         img: require("./assets/images/vrs.png"),
         description: "A Vehicle Management System is a software application or platform designed to streamline and automate various aspects of managing a fleet of vehicles.",
